@@ -302,7 +302,7 @@ footer p {
 }
 
 /* Container */
-.course-container {
+.container {
     max-width: 600px;
     margin: 20px auto;
     background: white;
@@ -361,7 +361,7 @@ footer p {
 
 /* Course Colors */
 .CSE {
-    background: #5e2b00;
+    background: #c58653;
     /* Brown */
 }
 
