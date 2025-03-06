@@ -88,20 +88,6 @@ h1 {
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
 }
 
-/* Course Work */
-#course-list {
-    list-style: none;
-    padding: 0;
-}
-
-#course-list li {
-    background: #5e2b00;
-    color: white;
-    padding: 10px;
-    margin: 5px 0;
-    border-radius: 5px;
-    font-weight: bold;
-}
 
 /* Location Section */
 .course-container section img {
