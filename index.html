@@ -9,6 +9,11 @@
     <title>Course Home</title>
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <script src="scripts/navigation.js" defer></script>
+    <script src="scripts/date.js" defer></script>
+    <script src="scripts/course.js" defer></script>
+
     <script defer src="scripts/script.js"></script>
 </head>
 
@@ -16,16 +21,19 @@
     <header>
         <img src="images/profile.webp" alt="Nyashadzashe Gumboguru" class="profile-img">
         <span>Nyashadzashe Gumboguru</span>
-        <nav>
-            <button id="menu">☰</button>
-            <ul id="nav-links" class="hidden">
-                <li><a href="#" class="active">Home</a></li>
-                <li><a href="#">Chamber</a></li>
-                <li><a href="#">GitHub Profile</a></li>
-                <li><a href="https://www.linkedin.com/" target="_blank">LinkedIn</a></li>
-            </ul>
-        </nav>
+       
     </header>
+    <nav>
+            
+        <ul>
+            <li><a href="#" class="active">Home</a></li>
+            <li><a href="#">Chamber</a></li>
+            <li><a href="#">GitHub Profile</a></li>
+            <li><a href="#">LinkedIn</a></li>
+        </ul>
+    </nav>
+
+
 
     <main>
         <h1>Home</h1>
@@ -33,46 +41,35 @@
         <div class="course-container">
             <section>
                 <h2>Course Work</h2>
-                <ul id="course-list">
-                    <li> </li>
-                    <li> </li>
-                    <li> </li>
+                <ul>
+                    <li></li>
+                    <li></li>
+                    <li></li>
                 </ul>
             </section>
 
             <section>
-                <h2>Kwekwe, Zimbabwe</h2>
-                <img src="images/coursehome.webp" alt=" Kwekwe">
-                <p>Kwekwe</p>
+                <h3>kwekwe, Zimbabwe</h3>
+                <img src="./images/coursehome.webp" alt="kwekwe">
+                <p>Baobab Trees</p>
             </section>
         </div>
 
 
-        <section>
-            <h2>Web and Computer Programming Certificate</h2>
+        <section class="certificate">
+            <h3>Web and Computer Programming Certificate</h3>
             <div id="filter-buttons">
-                <button class="filter-btn" data-filter="All">All</button>
-                <button class="filter-btn" data-filter="CSE">CSE</button>
-                <button class="filter-btn" data-filter="WDD">WDD</button>
+                <button data-filter="All">All</button>
+                <button data-filter="CSE">CSE</button>
+                <button data-filter="WDD">WDD</button>
             </div>
-            <div id="courses"></div>
-            <p>Total Credits: <span id="total-credits">0</span></p>
-        </section>
-
-        <section>
-            <h2>Resources</h2>
-            <p>Here are some useful learning resources for Web and Computer Programming.</p>
-            <ul>
-                <li><a href="https://developer.mozilla.org/" target="_blank">MDN Web Docs</a></li>
-                <li><a href="https://www.w3schools.com/" target="_blank">W3Schools</a></li>
-                <li><a href="https://github.com/" target="_blank">GitHub</a></li>
-            </ul>
+           
         </section>
     </main>
 
     <footer>
         <p>&copy; <span id="currentyear"></span> Nyashadzashe Gumboguru | Zimbabwe</p>
-        <p id="lastModified"></p>
+        <p>Last Update: <span id="lastModified"></span></p>
     </footer>
 </body>
 
