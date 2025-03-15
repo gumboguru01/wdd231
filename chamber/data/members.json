@@ -1,18 +1,58 @@
 [
     {
         "name": "Tech Solutions",
-        "address": "123 Tech Street, City, Country",
-        "phone": "+1234567890",
+        "address": "123 Tech Street, Kwekwe, Zimbabwe",
+        "phone": "+263 71 234 5678",
         "website": "https://techsolutions.com",
         "image": "tech-solutions.jpg",
         "membership": 3
     },
     {
         "name": "Green Energy",
-        "address": "456 Green Ave, City, Country",
-        "phone": "+0987654321",
+        "address": "456 Green Ave, Kwekwe, Zimbabwe",
+        "phone": "+263 77 345 6789",
         "website": "https://greenenergy.com",
         "image": "green-energy.jpg",
         "membership": 2
+    },
+    {
+        "name": "Kwekwe Hardware",
+        "address": "12 Main Street, Kwekwe, Zimbabwe",
+        "phone": "+263 78 567 8901",
+        "website": "https://kwekwehardware.co.zw",
+        "image": "kwekwe-hardware.jpg",
+        "membership": 1
+    },
+    {
+        "name": "Midlands Auto Parts",
+        "address": "88 Industrial Road, Kwekwe, Zimbabwe",
+        "phone": "+263 71 678 9012",
+        "website": "https://midlandsautoparts.com",
+        "image": "midlands-auto.jpg",
+        "membership": 3
+    },
+    {
+        "name": "Kwekwe Supermarket",
+        "address": "22 City Center, Kwekwe, Zimbabwe",
+        "phone": "+263 77 789 0123",
+        "website": "https://kwekwe-supermarket.co.zw",
+        "image": "kwekwe-supermarket.jpg",
+        "membership": 2
+    },
+    {
+        "name": "Gold Mining Supplies",
+        "address": "75 Mine Road, Kwekwe, Zimbabwe",
+        "phone": "+263 71 890 1234",
+        "website": "https://goldminingsupplies.co.zw",
+        "image": "gold-mining.jpg",
+        "membership": 1
+    },
+    {
+        "name": "Midlands Tech Hub",
+        "address": "34 Innovation Drive, Kwekwe, Zimbabwe",
+        "phone": "+263 78 901 2345",
+        "website": "https://midlandstechhub.com",
+        "image": "midlands-tech.jpg",
+        "membership": 3
     }
 ]
