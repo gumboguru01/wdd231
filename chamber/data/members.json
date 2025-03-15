@@ -1,7 +1,7 @@
 [
     {
         "name": "Tech Solutions",
-        "address": "123 Tech Street, Kwekwe, Zimbabwe",
+        "address": "mugabe Street, Kwekwe, Zimbabwe",
         "phone": "+263 71 234 5678",
         "website": "https://techsolutions.com",
         "image": "tech-solutions.jpg",
@@ -9,7 +9,7 @@
     },
     {
         "name": "Green Energy",
-        "address": "456 Green Ave, Kwekwe, Zimbabwe",
+        "address": "456 masa Ave, Kwekwe, Zimbabwe",
         "phone": "+263 77 345 6789",
         "website": "https://greenenergy.com",
         "image": "green-energy.jpg",
