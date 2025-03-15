@@ -1,0 +1,18 @@
+[
+    {
+        "name": "Tech Solutions",
+        "address": "123 Tech Street, City, Country",
+        "phone": "+1234567890",
+        "website": "https://techsolutions.com",
+        "image": "tech-solutions.jpg",
+        "membership": 3
+    },
+    {
+        "name": "Green Energy",
+        "address": "456 Green Ave, City, Country",
+        "phone": "+0987654321",
+        "website": "https://greenenergy.com",
+        "image": "green-energy.jpg",
+        "membership": 2
+    }
+]
