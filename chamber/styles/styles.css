@@ -1,4 +1,4 @@
-
+/* ========== Base Styles ========== */
 * {
     margin: 0;
     padding: 0;
@@ -11,6 +11,7 @@ body {
     color: #333;
 }
 
+/* ========== Header and Footer ========== */
 header,
 footer {
     background-color: #222;
@@ -29,21 +30,172 @@ nav ul {
 nav a {
     color: white;
     text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
 }
 
+nav a:hover {
+    color: #ffcc00;
+}
+
+/* ========== Hero Section ========== */
+.hero {
+    position: relative;
+    width: 100%;
+    height: 50vh;
+    background: url("../images/hero.jpg") center/cover no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-text {
+    background: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.hero h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.cta-button {
+    display: inline-block;
+    background: #ffcc00;
+    color: black;
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s ease-in-out;
+}
+
+.cta-button:hover {
+    background: #ff9900;
+}
+
+/* ========== Main Content ========== */
 main {
     padding: 20px;
     max-width: 900px;
     margin: auto;
 }
 
+/* ========== Toggle View Button ========== */
 #toggleView {
     display: block;
     margin: 10px auto;
     padding: 8px 12px;
+    background: #004a99;
+    color: white;
+    border: none;
+    border-radius: 5px;
     cursor: pointer;
+    font-weight: bold;
+    transition: background 0.3s ease-in-out;
 }
 
+#toggleView:hover {
+    background: #002f66;
+}
+
+/* ========== Business Spotlight ========== */
+.spotlights {
+    padding: 20px;
+    text-align: center;
+    background: white;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin: 20px 0;
+}
+
+.spotlight-card {
+    background: white;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    text-align: center;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.spotlight-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.spotlight-card img {
+    max-width: 100px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.spotlight-card h3 {
+    color: #004a99;
+    margin-bottom: 5px;
+}
+
+.spotlight-card a {
+    text-decoration: none;
+    color: #004a99;
+    font-weight: bold;
+}
+
+.spotlight-card a:hover {
+    color: #002f66;
+}
+
+/* ========== Events Section ========== */
+.events {
+    background: white;
+    padding: 15px;
+    margin: 20px 0;
+    border-left: 5px solid #004a99;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.events h2 {
+    color: #004a99;
+    margin-bottom: 10px;
+}
+
+.events ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.events li {
+    padding: 8px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.events li:last-child {
+    border-bottom: none;
+}
+
+/* ========== Weather Section ========== */
+.weather {
+    background: linear-gradient(to right, #004a99, #0066cc);
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+    margin: 20px 0;
+}
+
+.weather h2 {
+    margin-bottom: 10px;
+}
+
+.weather ul {
+    list-style: none;
+    padding: 0;
+}
+
+/* ========== Grid & List Views ========== */
 .grid-view {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
@@ -56,14 +208,45 @@ main {
     gap: 10px;
 }
 
+/* ========== Member Cards ========== */
 .member-card {
     background: white;
     padding: 10px;
     border: 1px solid #ddd;
     text-align: center;
+    border-radius: 8px;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.member-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2);
 }
 
 .member-card img {
     max-width: 100%;
     height: auto;
+}
+
+/* ========== Responsive Styles ========== */
+@media (max-width: 768px) {
+    .hero {
+        height: 40vh;
+    }
+
+    .hero-text {
+        width: 80%;
+    }
+
+    .grid-view {
+        grid-template-columns: 1fr;
+    }
+
+    .list-view {
+        flex-direction: column;
+    }
+
+    .spotlight-card {
+        margin-bottom: 10px;
+    }
 }
