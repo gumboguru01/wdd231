@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Course Home Page for WDD231">
+    <meta name="author" content="Nyashadzashe">
+    <title>WDD 231 Course Home Page</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/larger.css">
+    <script src="js/navigation.js" defer></script>
+    <script src="js/date.js" defer></script>
+    <script src="js/courses.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <img src="images/logo.svg" alt="Site Logo" class="logo">
+        <span>Nyashadzashe</span>
+        <button id="menu" aria-label="Menu">&#9776;</button>
+        <nav>
+            <ul class="navigation">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="chamber/index.html">Chamber Project</a></li>
+                <li><a href="final/index.html">Final Project</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Home</h1>
+
+        <section>
+            <h2>About Me</h2>
+            <p>
+                My name is <strong>Nyashadzashe Gumboguru</strong>, a 24-year-old tech enthusiast,
+                CEO of <strong>Access Soft Labs</strong>, data analyst, and web developer.
+                I’m currently pursuing my degree in <strong>Software Engineering</strong>.
+            </p>
+            <p>
+                I have a deep passion for technology and a love for simplicity, reflected in
+                my preference for black and white. Faith is central to my life — I value prayer
+                and respect God. As the eldest of three boys, I embrace leadership and responsibility.
+            </p>
+            <p>
+                I reside in <strong>Kwekwe, Msasa Eastview, Aspedel, Zimbabwe</strong>.
+                I’m excited to be learning and growing with a great family here at BYU–Idaho 😊.
+            </p>
+            <p>
+                My company, Access Soft Labs, is just starting out, and I’m committed to
+                building it into something impactful by combining innovation, dedication,
+                and service to others.
+            </p>
+        </section>
+
+        <section>
+            <h2>Student Photo</h2>
+            <img src="images/student.jpg" alt="Photo of Nyashadzashe">
+        </section>
+
+        <section>
+            <h2>Web Certificate Courses</h2>
+            <div class="buttons">
+                <button id="all">All</button>
+                <button id="cse">CSE</button>
+                <button id="wdd">WDD</button>
+            </div>
+            <div id="courseContainer"></div>
+            <p id="totalCredits"></p>
+        </section>
+    </main>
+
+    <footer>
+        <div class="socials">
+            <a href="https://github.com/" target="_blank">GitHub</a>
+            <a href="https://linkedin.com/in/" target="_blank">LinkedIn</a>
+        </div>
+        <p>© <span id="year"></span> • Nyashadzashe • Zimbabwe</p>
+        <p id="lastModified"></p>
+    </footer>
+</body>
+
+</html>
