@@ -1,65 +1,65 @@
 [
   {
-    "name": "Midlands Bakery",
-    "address": "12 Robert Mugabe Way, Kwekwe",
-    "phone": "+263 77 222 1001",
-    "website": "https://midlands-bakery.example",
-    "image": "bakery.svg",
+    "name": "Dendairy",
+    "address": "956 Clyde Road, Kwekwe, Midlands Province",
+    "phone": "+263 55 22008",
+    "website": "https://dendairy.co.zw",
+    "image": "dendairy.svg",
     "membership": 3,
-    "notes": "Freshly baked bread, cakes, and traditional pastries."
+    "notes": "Dairy products: UHT milk, yogurt, ice cream & juices."
   },
   {
-    "name": "Kwekwe Hardware Supplies",
-    "address": "45 Rhodes Way, Kwekwe",
-    "phone": "+263 77 222 1002",
-    "website": "https://kwekwe-hardware.example",
-    "image": "hardware.svg",
+    "name": "Putcon Import Export Services",
+    "address": "36 Triangle Estates, Kwekwe, Midlands Province",
+    "phone": "+263 73 333 7767",
+    "website": "https://putcon.co.zw",
+    "image": "importexport.svg",
     "membership": 2,
-    "notes": "Building materials, tools, and construction supplies."
+    "notes": "Mining & forest resources, agricultural products."
   },
   {
-    "name": "Flora Kwekwe Florists",
-    "address": "8 Mbizo Shopping Centre, Kwekwe",
-    "phone": "+263 77 222 1003",
-    "website": "https://flora-kwekwe.example",
-    "image": "florist.svg",
-    "membership": 1,
-    "notes": "Beautiful floral arrangements for all occasions."
-  },
-  {
-    "name": "Access Soft Labs",
-    "address": "101 City Centre, Kwekwe",
-    "phone": "+263 71 769 0058",
-    "website": "https://accesssoftlabs.example",
+    "name": "Arco-Tech",
+    "address": "Plot 8, Old Steel Works Road, Chicago, Kwekwe",
+    "phone": "0788 358 970",
+    "website": "https://arco-tech.example",
     "image": "tech.svg",
-    "membership": 3,
-    "notes": "IT consulting, software solutions, and web development."
-  },
-  {
-    "name": "Golden Cafe Kwekwe",
-    "address": "2 Speke Avenue, Kwekwe",
-    "phone": "+263 77 222 1005",
-    "website": "https://golden-cafe.example",
-    "image": "cafe.svg",
-    "membership": 2,
-    "notes": "Serving coffee, meals, and traditional Zimbabwean dishes."
-  },
-  {
-    "name": "Kwekwe City Pharmacy",
-    "address": "77 Health Street, Kwekwe",
-    "phone": "+263 77 222 1006",
-    "website": "https://kwekwe-pharmacy.example",
-    "image": "pharmacy.svg",
     "membership": 1,
-    "notes": "Prescription and over-the-counter medicine."
+    "notes": "Electrical / technological solutions and repair services."
   },
   {
-    "name": "Zambezi Travel & Tours",
-    "address": "9 Commercial Road, Kwekwe",
-    "phone": "+263 77 222 1007",
-    "website": "https://zambezi-travel.example",
-    "image": "travel.svg",
+    "name": "Miet Engineering",
+    "address": "2812 Edison Crescent, Light Industrial Sites, Kwekwe",
+    "phone": "+263 77 996 9220",
+    "website": "https://mietengineering.example",
+    "image": "engineering.svg",
+    "membership": 3,
+    "notes": "Industrial engineering and manufacturing services."
+  },
+  {
+    "name": "Biznetwork Communication Systems",
+    "address": "Shop 9b, Third Street, Kwekwe",
+    "phone": "055-25386",
+    "website": "https://biznetwork.example",
+    "image": "communications.svg",
     "membership": 2,
-    "notes": "Travel booking, safari packages, and local tours."
+    "notes": "Communications systems and networking services."
+  },
+  {
+    "name": "Bluebean Technologies",
+    "address": "Kwekwe, Midlands Province",
+    "phone": "+263 …",
+    "website": "https://bluebeantech.example",
+    "image": "bluebean.svg",
+    "membership": 3,
+    "notes": "Software development, web design & innovation."
+  },
+  {
+    "name": "Tans Electrical Solutions",
+    "address": "51 Ranchod Industrial Road, Kwekwe",
+    "phone": "0776 893 780",
+    "website": "https://tanselectrical.example",
+    "image": "electrical.svg",
+    "membership": 1,
+    "notes": "Electrical supply & installation services."
   }
 ]
