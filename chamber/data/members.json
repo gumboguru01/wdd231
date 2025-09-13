@@ -5,7 +5,7 @@
             "address": "Mbizo, Kwekwe",
             "phone": "555-111-2222",
             "website": "https://www.cakeman.in/",
-            "image": "bakery.svg",
+            "image": "bakery.jpeg",
             "membershipLevel": "Gold"
         },
         {
@@ -13,7 +13,7 @@
             "address": "CBD, kwekwe",
             "phone": "555-333-4444",
             "website": "https://Twinkle.com",
-            "image": "tech.svg",
+            "image": "tech.jpeg",
             "membershipLevel": "Silver"
         },
         {
@@ -21,7 +21,7 @@
             "address": "78 lunar Ave, kwekwe",
             "phone": "555-555-6666",
             "website": "https://healthylife.com",
-            "image": "clinic.svg",
+            "image": "clinic.jpeg",
             "membershipLevel": "Member"
         },
         {
@@ -29,7 +29,7 @@
             "address": "90 Nehanda Rd, kwekwe",
             "phone": "555-777-8888",
             "website": "https://musaraandcompanysteel.co.zw/",
-            "image": "hardware.svg",
+            "image": "hardware.jpeg",
             "membershipLevel": "Gold"
         },
         {
@@ -37,7 +37,7 @@
             "address": "12 kaguvi, kwekwe",
             "phone": "555-999-0000",
             "website": "https://cityroofing.com",
-            "image": "roofing.svg",
+            "image": "roofing.jpeg",
             "membershipLevel": "Silver"
         },
         {
@@ -45,7 +45,7 @@
             "address": "34 Chitepo, kwekwe",
             "phone": "555-212-3333",
             "website": "https://cafedelight.com",
-            "image": "cafe.svg",
+            "image": "cafe.jpeg",
             "membershipLevel": "Member"
         },
         {
@@ -53,7 +53,7 @@
             "address": "56 cbd kwekwe",
             "phone": "555-234-5855",
             "website": "https://boutiquefashion.com",
-            "image": "boutique.svg",
+            "image": "boutique.jpeg",
             "membershipLevel": "Gold"
         }
     ]
