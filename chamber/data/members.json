@@ -1,60 +1,65 @@
-{
-    "members": [
-        {
-            "name": "CAKEMAN",
-            "address": "Mbizo, Kwekwe",
-            "phone": "555-111-2222",
-            "website": "https://www.cakeman.in/",
-            "image": "bakery.jpeg",
-            "membershipLevel": "Gold"
-        },
-        {
-            "name": "Twinkle Mobile",
-            "address": "CBD, kwekwe",
-            "phone": "555-333-4444",
-            "website": "https://Twinkle.com",
-            "image": "tech.jpeg",
-            "membershipLevel": "Silver"
-        },
-        {
-            "name": "LDevis",
-            "address": "78 lunar Ave, kwekwe",
-            "phone": "555-555-6666",
-            "website": "https://healthylife.com",
-            "image": "clinic.jpeg",
-            "membershipLevel": "Member"
-        },
-        {
-            "name": "Musara Hardware",
-            "address": "90 Nehanda Rd, kwekwe",
-            "phone": "555-777-8888",
-            "website": "https://musaraandcompanysteel.co.zw/",
-            "image": "hardware.jpeg",
-            "membershipLevel": "Gold"
-        },
-        {
-            "name": "City Roofing Co.",
-            "address": "12 kaguvi, kwekwe",
-            "phone": "555-999-0000",
-            "website": "https://cityroofing.com",
-            "image": "roofing.jpeg",
-            "membershipLevel": "Silver"
-        },
-        {
-            "name": "Cafe Delight",
-            "address": "34 Chitepo, kwekwe",
-            "phone": "555-212-3333",
-            "website": "https://cafedelight.com",
-            "image": "cafe.jpeg",
-            "membershipLevel": "Member"
-        },
-        {
-            "name": "Boutique Fashion",
-            "address": "56 cbd kwekwe",
-            "phone": "555-234-5855",
-            "website": "https://boutiquefashion.com",
-            "image": "boutique.jpeg",
-            "membershipLevel": "Gold"
-        }
-    ]
-}
+[
+  {
+    "name": "Midlands Bakery",
+    "address": "12 Robert Mugabe Way, Kwekwe",
+    "phone": "+263 77 222 1001",
+    "website": "https://midlands-bakery.example",
+    "image": "bakery.svg",
+    "membership": 3,
+    "notes": "Freshly baked bread, cakes, and traditional pastries."
+  },
+  {
+    "name": "Kwekwe Hardware Supplies",
+    "address": "45 Rhodes Way, Kwekwe",
+    "phone": "+263 77 222 1002",
+    "website": "https://kwekwe-hardware.example",
+    "image": "hardware.svg",
+    "membership": 2,
+    "notes": "Building materials, tools, and construction supplies."
+  },
+  {
+    "name": "Flora Kwekwe Florists",
+    "address": "8 Mbizo Shopping Centre, Kwekwe",
+    "phone": "+263 77 222 1003",
+    "website": "https://flora-kwekwe.example",
+    "image": "florist.svg",
+    "membership": 1,
+    "notes": "Beautiful floral arrangements for all occasions."
+  },
+  {
+    "name": "Access Soft Labs",
+    "address": "101 City Centre, Kwekwe",
+    "phone": "+263 71 769 0058",
+    "website": "https://accesssoftlabs.example",
+    "image": "tech.svg",
+    "membership": 3,
+    "notes": "IT consulting, software solutions, and web development."
+  },
+  {
+    "name": "Golden Cafe Kwekwe",
+    "address": "2 Speke Avenue, Kwekwe",
+    "phone": "+263 77 222 1005",
+    "website": "https://golden-cafe.example",
+    "image": "cafe.svg",
+    "membership": 2,
+    "notes": "Serving coffee, meals, and traditional Zimbabwean dishes."
+  },
+  {
+    "name": "Kwekwe City Pharmacy",
+    "address": "77 Health Street, Kwekwe",
+    "phone": "+263 77 222 1006",
+    "website": "https://kwekwe-pharmacy.example",
+    "image": "pharmacy.svg",
+    "membership": 1,
+    "notes": "Prescription and over-the-counter medicine."
+  },
+  {
+    "name": "Zambezi Travel & Tours",
+    "address": "9 Commercial Road, Kwekwe",
+    "phone": "+263 77 222 1007",
+    "website": "https://zambezi-travel.example",
+    "image": "travel.svg",
+    "membership": 2,
+    "notes": "Travel booking, safari packages, and local tours."
+  }
+]

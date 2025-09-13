@@ -1,60 +1,66 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Chamber of Commerce Directory</title>
-    <meta name="description" content="Business directory for the City Chamber of Commerce.">
-    <meta name="author" content="Your Name">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Kwekwe Chamber — Directory</title>
+  <meta name="description" content="Directory of local businesses and organizations in Kwekwe.">
+  <meta name="author" content="Nyashadzashe Gumboguru">
 
-    <!-- Favicon -->
-    <link rel="icon" type="image/x-icon" href="../favicon.ico">
+  <!-- Facebook / Open Graph -->
+  <meta property="og:title" content="Kwekwe Chamber Directory">
+  <meta property="og:description" content="Find local businesses, organizations, and chamber members in Kwekwe.">
+  <meta property="og:image" content="images/kwekwe-logo.png">
+  <meta property="og:url" content="https://your-github-username.github.io/wdd231/chamber/directory.html">
 
-    <!-- Facebook Open Graph Meta -->
-    <meta property="og:title" content="City Chamber of Commerce Directory">
-    <meta property="og:description" content="Explore businesses in our Chamber directory.">
-    <meta property="og:image" content="https://your-github-username.github.io/wdd231/chamber/images/bakery.svg">
-    <meta property="og:url" content="https://your-github-username.github.io/wdd231/chamber/directory.html">
+  <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
 
-    <!-- CSS -->
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/styles.css">
+  <!-- Normalize first -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-    <header>
-        <h1>Kwekwe city Chamber of Commerce</h1>
-        <nav>
-            <ul class="nav-menu">
-                <li><a href="../index.html">Home</a></li>
-                <li><a href="#">W1</a></li>
-                <li><a href="directory.html" class="active">W2</a></li>
-                <li><a href="#">W3</a></li>
-                <li><a href="#">W4</a></li>
-                <li><a href="#">W5</a></li>
-                <li><a href="#">W6</a></li>
-                <li><a href="#">W7</a></li>
-            </ul>
-        </nav>
-    </header>
+  <header>
+    <div class="container nav">
+      <div class="brand">Kwekwe Chamber of Commerce</div>
+      <nav class="menu" aria-label="Main">
+        <a href="index.html">Home</a> |
+        <a href="directory.html" class="active">Directory</a> |
+        <a href="events.html">Events</a> |
+        <a href="about.html">About</a>
+      </nav>
+      <div class="controls">
+        <button id="gridView" class="toggle-btn" aria-pressed="true">Grid</button>
+        <button id="listView" class="toggle-btn" aria-pressed="false">List</button>
+      </div>
+    </div>
+  </header>
 
-    <main>
-        <section class="controls">
-            <button id="grid-view">Grid View</button>
-            <button id="list-view">List View</button>
-        </section>
+  <main class="container">
+    <section>
+      <h1>Kwekwe Chamber Directory</h1>
+      <p>Explore local businesses, organizations, and members of the Kwekwe Chamber. Toggle between grid cards and a
+        simple list view.</p>
 
-        <section id="directory" class="grid"></section>
-    </main>
+      <div id="members" aria-live="polite"></div>
+    </section>
+  </main>
 
-    <footer>
-        <p>Contact: info@chamber.com | (+263) 71 769 0058</p>
-        <p>&copy; <span id="year"></span> Nyasha WDD 231</p>
-        <p>Last Modified: <span id="last-modified"></span></p>
-    </footer>
+  <footer class="footer">
+    <div class="container">
+      <p>Contact: Kwekwe Chamber of Commerce — +263 71 769 0058</p>
+      <small>
+        Nyashadzashe Gumboguru • WDD 231 •
+        Last modified: <span id="lastModified"></span> •
+        &copy; <span id="year"></span> Kwekwe Chamber
+      </small>
+    </div>
+  </footer>
 
-    <script src="js/main.js" defer></script>
+  <script src="js/script.js" defer></script>
 </body>
 
 </html>
