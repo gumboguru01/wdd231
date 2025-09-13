@@ -21,7 +21,7 @@
     "name": "Arco-Tech",
     "address": "Plot 8, Old Steel Works Road, Chicago, Kwekwe",
     "phone": "0788 358 970",
-    "website": "https://arco-tech.example",
+    "website": "https://arco-tech..com",
     "image": "tech.svg",
     "membership": 1,
     "notes": "Electrical / technological solutions and repair services."
@@ -30,7 +30,7 @@
     "name": "Miet Engineering",
     "address": "2812 Edison Crescent, Light Industrial Sites, Kwekwe",
     "phone": "+263 77 996 9220",
-    "website": "https://mietengineering.example",
+    "website": "https://mietengineering.co.zw",
     "image": "engineering.svg",
     "membership": 3,
     "notes": "Industrial engineering and manufacturing services."
@@ -39,7 +39,7 @@
     "name": "Biznetwork Communication Systems",
     "address": "Shop 9b, Third Street, Kwekwe",
     "phone": "055-25386",
-    "website": "https://biznetwork.example",
+    "website": "https://biznetwork.org",
     "image": "communications.svg",
     "membership": 2,
     "notes": "Communications systems and networking services."
@@ -48,7 +48,7 @@
     "name": "Bluebean Technologies",
     "address": "Kwekwe, Midlands Province",
     "phone": "+263 …",
-    "website": "https://bluebeantech.example",
+    "website": "https://bluebeantech.co.zw",
     "image": "bluebean.svg",
     "membership": 3,
     "notes": "Software development, web design & innovation."
@@ -57,7 +57,7 @@
     "name": "Tans Electrical Solutions",
     "address": "51 Ranchod Industrial Road, Kwekwe",
     "phone": "0776 893 780",
-    "website": "https://tanselectrical.example",
+    "website": "https://tanselectrical.com",
     "image": "electrical.svg",
     "membership": 1,
     "notes": "Electrical supply & installation services."
