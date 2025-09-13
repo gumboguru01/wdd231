@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #004080;
+    color: #fff;
+    padding: 1rem;
+}
+
+header h1 {
+    margin-bottom: 0.5rem;
+}
+
+.nav-menu {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.nav-menu a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.nav-menu a.active {
+    text-decoration: underline;
+}
+
+.controls {
+    margin: 1rem;
+    text-align: center;
+}
+
+.controls button {
+    margin: 0 0.5rem;
+    padding: 0.5rem 1rem;
+}
+
+/* Directory grid */
+#directory {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.member-card,
+.member-list {
+    border: 1px solid #ccc;
+    padding: 1rem;
+    border-radius: 6px;
+    background: #f9f9f9;
+}
+
+.member-card img {
+    max-width: 100px;
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+/* List view */
+#directory.list {
+    display: block;
+}
+
+.member-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: .5rem;
+}
+
+footer {
+    background: #222;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+}
