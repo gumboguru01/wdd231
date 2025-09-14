@@ -5,34 +5,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Course Home Page for WDD231">
-    <meta name="author" content="Nyashadzashe">
+    <meta name="author" content="Nyashadzashe Gumboguru">
     <title>WDD 231 Course Home Page</title>
+
+    <!-- Stylesheets -->
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/small.css">
     <link rel="stylesheet" href="css/larger.css">
+
+    <!-- Scripts -->
     <script src="js/navigation.js" defer></script>
     <script src="js/date.js" defer></script>
     <script src="js/courses.js" defer></script>
+
     <link rel="icon" href="favicon.ico">
 </head>
 
 <body>
     <header>
-        <img src="images/logo.svg" alt="Site Logo" class="logo">
-        <span>Nyashadzashe</span>
-        <button id="menu" aria-label="Menu">&#9776;</button>
-        <nav>
+        <div class="branding">
+            <img src="images/logo.svg" alt="Site Logo" class="logo">
+            <h1>Nyashadzashe</h1>
+        </div>
+        <button id="menu" aria-label="Menu" aria-expanded="false">&#9776;</button>
+        <nav role="navigation">
             <ul class="navigation">
-                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="index.html" aria-current="page">Home</a></li>
                 <li><a href="chamber/index.html">Chamber Project</a></li>
                 <li><a href="final/index.html">Final Project</a></li>
             </ul>
         </nav>
     </header>
 
-    <main>
-        <h1>Home</h1>
-
+    <main role="main">
         <section>
             <h2>About Me</h2>
             <p>
@@ -73,10 +78,10 @@
         </section>
     </main>
 
-    <footer>
+    <footer role="contentinfo">
         <div class="socials">
-            <a href="https://github.com/" target="_blank">GitHub</a>
-            <a href="https://linkedin.com/in/" target="_blank">LinkedIn</a>
+            <a href="https://github.com/" target="_blank" rel="noopener">GitHub</a>
+            <a href="https://linkedin.com/in/" target="_blank" rel="noopener">LinkedIn</a>
         </div>
         <p>© <span id="year"></span> • Nyashadzashe • Zimbabwe</p>
         <p id="lastModified"></p>

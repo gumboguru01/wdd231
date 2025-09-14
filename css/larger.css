@@ -1,24 +1,32 @@
-/* large.css | Styles for larger screens */
+/* larger.css | Styles for larger screens */
 @media (min-width: 768px) {
     header {
+        display: flex;
         justify-content: space-between;
+        align-items: center;
     }
 
     /* Show nav horizontally */
     nav {
-        display: flex !important;
+        display: flex;
         flex-direction: row;
         justify-content: flex-end;
         background: none;
     }
 
+    nav ul {
+        display: flex;
+        gap: 1rem;
+    }
+
     nav a {
         border: none;
-        margin-left: 1rem;
+        margin: 0;
         padding: 0.5rem 1rem;
     }
 
-    .hamburger {
+    /* Hide hamburger on large screens */
+    #menu {
         display: none;
     }
 
@@ -28,6 +36,17 @@
         display: grid;
         grid-template-columns: 2fr 1fr;
         gap: 2rem;
+    }
+
+    /* Example wireframe adjustment:
+       Make About Me + Courses in left col, Student Photo in right col */
+    main section:nth-of-type(1),
+    main section:nth-of-type(3) {
+        grid-column: 1;
+    }
+
+    main section:nth-of-type(2) {
+        grid-column: 2;
     }
 
     section {
