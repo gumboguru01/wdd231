@@ -1,144 +1,176 @@
-/* normalize minimal */
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0
-}
+/* style.css */
 
-html,
 body {
-  font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
-  line-height: 1.4;
-  color: #1f2937
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  background: #f9f9f9;
+  color: #333;
 }
 
 header {
-  background: #4169E1;
-  /* Royal Blue */
-  color: white;
-  padding: 1rem
-}
-
-.container {
-  max-width: 1100px;
-  margin: 0 auto;
-  padding: 1rem
-}
-
-.nav {
-  display: flex;
-  gap: 1rem;
-  align-items: center;
-  flex-wrap: wrap
-}
-
-.brand {
-  font-weight: 700;
-  font-size: 1.25rem
-}
-
-.controls {
-  margin-left: auto;
-  display: flex;
-  gap: .5rem;
-  align-items: center
-}
-
-.toggle-btn {
-  background: transparent;
-  border: 1px solid rgba(255, 255, 255, .25);
-  color: white;
-  padding: .35rem .6rem;
-  border-radius: 6px;
-  cursor: pointer
-}
-
-.toggle-btn:hover,
-.toggle-btn:focus {
-  background: #27408B;
-  /* darker royal blue for hover */
-  border-color: #fff
-}
-
-main {
+  background: #004080;
+  color: #fff;
   padding: 1rem;
-  background: linear-gradient(180deg, #f9fbff, #eef4ff);
-  /* light blue gradient background */
-  min-height: 60vh
+  text-align: center;
 }
 
-.view-controls {
+header h1 {
+  margin: 0;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
   display: flex;
-  gap: .5rem;
-  margin-bottom: 1rem;
-  align-items: center
+  justify-content: center;
+  gap: 1rem;
 }
 
-.grid {
+nav a {
+  color: #fff;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  transition: background 0.3s;
+}
+
+nav a:hover,
+nav a.active {
+  background: #0066cc;
+}
+
+/* Hero Section */
+.hero {
+  position: relative;
+  text-align: center;
+  color: #fff;
+}
+
+.hero img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+.hero-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgba(0, 0, 0, 0.5);
+  padding: 1rem 2rem;
+  border-radius: 10px;
+}
+
+.cta-btn {
+  display: inline-block;
+  margin-top: 1rem;
+  background: #ff6600;
+  color: #fff;
+  padding: 0.5rem 1.5rem;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background 0.3s;
+}
+
+.cta-btn:hover {
+  background: #e65c00;
+}
+
+/* Sections */
+main section {
+  background: #fff;
+  margin: 1rem auto;
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  max-width: 900px;
+}
+
+.events ul {
+  list-style: none;
+  padding: 0;
+}
+
+.events li {
+  margin: 0.5rem 0;
+}
+
+/* Weather */
+.weather {
+  text-align: center;
+}
+
+#current-weather p {
+  font-size: 1.2rem;
+  margin: 0.5rem 0;
+}
+
+#forecast p {
+  margin: 0.3rem 0;
+}
+
+/* Spotlights */
+.spotlight-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
-  gap: 1rem
-}
-
-.card {
-  background: white;
-  border-radius: 8px;
-  padding: 1rem;
-  box-shadow: 0 1px 3px rgba(15, 23, 42, .06);
-  display: flex;
+  grid-template-columns: 1fr;
   gap: 1rem;
-  align-items: center;
-  border: 1px solid #dce3f5
 }
 
-.card img {
-  width: 64px;
-  height: 64px;
-  border-radius: 6px;
-  object-fit: cover
-}
-
-.card .meta {
-  flex: 1
-}
-
-.list .card {
-  display: block;
-  flex-direction: row;
-  align-items: flex-start
-}
-
-.list .card img {
-  display: none
-}
-
-.footer {
-  background: #111827;
-  color: #d1d5db;
+.spotlight-card {
+  background: #f1f1f1;
   padding: 1rem;
-  margin-top: 1rem
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-.footer small {
-  display: block;
-  opacity: .9
+.spotlight-card img {
+  max-width: 100px;
+  margin-bottom: 0.5rem;
 }
 
-/* responsive nav */
-.menu {
-  display: none
+.spotlight-card a {
+  display: inline-block;
+  margin-top: 0.5rem;
+  color: #004080;
+  text-decoration: none;
+  font-weight: bold;
 }
 
-@media (max-width:700px) {
-  .nav {
-    align-items: flex-start
+.spotlight-card a:hover {
+  text-decoration: underline;
+}
+
+/* Footer */
+footer {
+  background: #004080;
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 1rem;
+}
+
+/* Responsive */
+@media (min-width: 600px) {
+  .spotlight-grid {
+    grid-template-columns: repeat(2, 1fr);
   }
 
-  .menu {
-    display: block
+  .hero img {
+    height: 400px;
+  }
+}
+
+@media (min-width: 900px) {
+  .spotlight-grid {
+    grid-template-columns: repeat(3, 1fr);
   }
 
-  .controls {
-    margin-left: 0
+  .hero img {
+    height: 500px;
   }
 }
