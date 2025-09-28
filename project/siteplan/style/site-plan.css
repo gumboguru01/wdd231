@@ -1,0 +1,85 @@
+/* Typography */
+body {
+    font-family: "Roboto", Arial, sans-serif;
+    background-color: #ffffff;
+    color: #222222;
+    margin: 0;
+    padding: 20px;
+    line-height: 1.6;
+}
+
+h1,
+h2,
+h3 {
+    font-family: "Playfair Display", serif;
+    color: #b30059;
+    /* Accent color */
+}
+
+p,
+li {
+    font-family: "Roboto", Arial, sans-serif;
+    color: #333333;
+}
+
+/* Layout for sections */
+header {
+    background-color: #b30059;
+    /* Accent color */
+    color: white;
+    padding: 1rem;
+    text-align: center;
+    border-radius: 8px;
+}
+
+section {
+    margin: 20px 0;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    /* Neutral background */
+}
+
+/* Wireframes */
+.wireframes {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.frame {
+    border: 2px dashed #b30059;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.frame.mobile {
+    width: 250px;
+    height: 500px;
+}
+
+.frame.desktop {
+    width: 600px;
+    height: 400px;
+}
+
+/* Simple box layout inside wireframes */
+.box {
+    border: 1px solid #999;
+    background-color: #eee;
+    margin: 5px 0;
+    text-align: center;
+    font-size: 0.8rem;
+    padding: 10px;
+}
+
+.row {
+    display: flex;
+    gap: 5px;
+}
+
+.row .box {
+    flex: 1;
+}
