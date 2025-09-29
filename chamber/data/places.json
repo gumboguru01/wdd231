@@ -1,0 +1,60 @@
+{
+    "places": [
+        {
+            "title": "Salt Lake Temple",
+            "image": "https://churchofjesuschrist.org/img/temples/salt-lake-temple.webp",
+            "address": "50 N Temple, Salt Lake City, UT 84150, USA",
+            "description": "The Salt Lake Temple, dedicated in 1893, is the most iconic temple of the Church of Jesus Christ of Latter-day Saints.",
+            "link": "https://www.churchofjesuschrist.org/temples/details/salt-lake-temple"
+        },
+        {
+            "title": "Nauvoo Illinois Temple",
+            "image": "https://churchofjesuschrist.org/img/temples/nauvoo-temple.webp",
+            "address": "50 North Wells Street, Nauvoo, IL 62354, USA",
+            "description": "A reconstruction of the original temple built in the 1840s, the Nauvoo Temple stands as a symbol of faith and history.",
+            "link": "https://www.churchofjesuschrist.org/temples/details/nauvoo-illinois-temple"
+        },
+        {
+            "title": "Mesa Arizona Temple",
+            "image": "https://churchofjesuschrist.org/img/temples/mesa-arizona-temple.webp",
+            "address": "101 S Lesueur, Mesa, AZ 85204, USA",
+            "description": "The Mesa Temple is well known for its beautiful Easter Pageant and visitor-friendly grounds.",
+            "link": "https://www.churchofjesuschrist.org/temples/details/mesa-arizona-temple"
+        },
+        {
+            "title": "Rome Italy Temple",
+            "image": "https://churchofjesuschrist.org/img/temples/rome-italy-temple.webp",
+            "address": "Via di Settebagni 376, Rome, Italy",
+            "description": "The Rome Temple is a cultural and religious landmark, dedicated in 2019 with statues of the original Twelve Apostles nearby.",
+            "link": "https://www.churchofjesuschrist.org/temples/details/rome-italy-temple"
+        },
+        {
+            "title": "Accra Ghana Temple",
+            "image": "https://churchofjesuschrist.org/img/temples/accra-ghana-temple.webp",
+            "address": "57 Independence Avenue, Accra, Ghana",
+            "description": "The Accra Ghana Temple was the first temple built in West Africa, dedicated in 2004.",
+            "link": "https://www.churchofjesuschrist.org/temples/details/accra-ghana-temple"
+        },
+        {
+            "title": "Johannesburg South Africa Temple",
+            "image": "https://churchofjesuschrist.org/img/temples/johannesburg-south-africa-temple.webp",
+            "address": "LDS Temple Complex, 3 Jubilee Rd, Parktown, Johannesburg, South Africa",
+            "description": "The Johannesburg Temple was the first temple built in Africa, dedicated in 1985.",
+            "link": "https://www.churchofjesuschrist.org/temples/details/johannesburg-south-africa-temple"
+        },
+        {
+            "title": "Paris France Temple",
+            "image": "https://churchofjesuschrist.org/img/temples/paris-france-temple.webp",
+            "address": "46 Boulevard Saint-Antoine, 78150 Le Chesnay, France",
+            "description": "Located near Versailles, the Paris Temple is known for its peaceful gardens and cultural beauty.",
+            "link": "https://www.churchofjesuschrist.org/temples/details/paris-france-temple"
+        },
+        {
+            "title": "Hong Kong China Temple",
+            "image": "https://churchofjesuschrist.org/img/temples/hong-kong-china-temple.webp",
+            "address": "2 Cornwall Street, Kowloon Tong, Hong Kong",
+            "description": "Dedicated in 1996, the Hong Kong Temple is a central place of worship for members across Asia.",
+            "link": "https://www.churchofjesuschrist.org/temples/details/hong-kong-china-temple"
+        }
+    ]
+}

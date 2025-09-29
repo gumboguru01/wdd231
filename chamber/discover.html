@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="description"
+        content="Discover local attractions and businesses in our community — photos, addresses, and descriptions. Chamber of Commerce discover page." />
+    <title>Discover — Chamber of Commerce</title>
+
+    <!-- Critical, minimal CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-header" role="banner">
+        <div class="site-brand">
+            <img src="images/logo.webp" alt="BYU-Idaho / Chamber logo" width="120" height="40">
+            <h1 class="visually-hidden">Chamber of Commerce</h1>
+        </div>
+
+        <nav class="site-nav" role="navigation" aria-label="Main">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="directory.html">Directory</a></li>
+                <li><a href="join.html">Join</a></li>
+                <li><a href="discover.html" aria-current="page">Discover</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="main" class="grid-container" role="main" aria-labelledby="page-title">
+        <h2 id="page-title" class="page-title">Discover Our Community</h2>
+
+        <!-- Sidebar: last-visit message appears here -->
+        <aside id="sidebar" class="sidebar" aria-labelledby="sidebar-heading">
+            <h3 id="sidebar-heading">Visitor</h3>
+            <div id="visitMessage" class="visit-message" aria-live="polite"></div>
+        </aside>
+
+        <!-- Gallery (cards inserted here via JS from JSON) -->
+        <section id="gallery" class="gallery" aria-label="Places of interest">
+            <!-- Cards are injected by script.js -->
+        </section>
+
+        <!-- Info/Notes area: accessibility/helpful info -->
+        <section class="info" aria-labelledby="info-heading">
+            <h3 id="info-heading">About This Page</h3>
+            <p>This page uses webp images sized 300×200 (recommended). Images below the fold are lazy loaded to improve
+                performance.</p>
+
+        </section>
+    </main>
+
+    <footer class="site-footer" role="contentinfo">
+        <p>&copy; <span id="year"></span> Chamber of Commerce</p>
+    </footer>
+
+    <script defer src="js/script.js"></script>
+</body>
+
+</html>
