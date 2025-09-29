@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thank You</title>
+    <link rel="stylesheet" href="css/styles.css" />
+</head>
+
+<body>
+    <header>
+        <h1>Chamber of Commerce</h1>
+    </header>
+
+    <main class="thankyou">
+        <h2>Thank You for Joining!</h2>
+        <p><strong>Name:</strong> <span id="fullname"></span></p>
+        <p><strong>Email:</strong> <span id="email"></span></p>
+        <p><strong>Phone:</strong> <span id="phone"></span></p>
+        <p><strong>Organization:</strong> <span id="organization"></span></p>
+        <p><strong>Submitted On:</strong> <span id="timestamp"></span></p>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Chamber of Commerce</p>
+    </footer>
+
+    <script>
+        const params = new URLSearchParams(window.location.search);
+        document.getElementById("fullname").textContent =
+            params.get("firstName") + " " + params.get("lastName");
+        document.getElementById("email").textContent = params.get("email");
+        document.getElementById("phone").textContent = params.get("phone");
+        document.getElementById("organization").textContent = params.get("organization");
+        document.getElementById("timestamp").textContent = params.get("timestamp");
+    </script>
+</body>
+
+</html>
