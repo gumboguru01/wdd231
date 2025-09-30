@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="/style/main.css">
+  <link rel="manifest" href="/manifest.json">
+  <link rel="icon" href="/assets/favicon.ico">
+<meta charset="utf-8"/>
+
+  <meta property="og:title" content="Murudo - Connect across borders">
+  <meta property="og:description" content="Join Murudo to meet people from different cultures.">
+  <meta property="og:type" content="website">
+
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Murudo | About</title>
+  <meta name="description" content="Murudo - Connect across borders with profiles and stories.">
+<link href="css/styles.css" rel="stylesheet"/>
+  <script src="/scripts/menu.js" defer></script>
+</head>
+<body><style>.visually-hidden {
+  position: absolute;
+  left: -9999px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}</style>
+<header>
+  <link rel="stylesheet" href="/style/main.css">
+  <link rel="manifest" href="/manifest.json">
+  <link rel="icon" href="/assets/favicon.ico">
+<nav class="navbar">
+<a href="index.html">Home</a>
+<a class="active" href="about.html" aria-current="page">About</a>
+<a href="explore.html">Explore</a>
+<a href="form.html">Join</a>
+<button aria-label="Toggle Menu" id="menu-btn">☰</button>
+</nav>
+</header>
+<main>
+<h1>About Murudo</h1>
+<p>Murudo is a global dating platform where real connections are made. 
+    Whether you’re looking for friendship, romance, or love stories, this is the place to start.</p>
+</main>
+<footer>
+<p>© 2025 Murudo</p>
+</footer>
+<script type="module" src="es-main.js"></script>
+
+<dialog id="myModal" aria-labelledby="lbl" aria-describedby="desc">
+  <h3 id="lbl">Details</h3>
+  <p id="desc"></p>
+  <button id="closeModal">Close</button>
+</dialog>
+
+
+  <script type="module">
+    import { renderProfiles, initThemeToggle } from '/scripts/dynamic.js';
+    document.addEventListener('DOMContentLoaded', () => {
+      renderProfiles('.profiles-grid');
+      initThemeToggle('#themeToggle');
+    });
+  </script>
+  
+</body>
+</html>

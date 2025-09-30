@@ -1,0 +1,47 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+  <link rel="manifest" href="/manifest.json">
+  <link rel="icon" href="/assets/favicon.ico">
+<meta charset="utf-8">
+
+  <meta property="og:title" content="Murudo - Connect across borders">
+  <meta property="og:description" content="Join Murudo to meet people from different cultures.">
+  <meta property="og:type" content="website">
+
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Form Submission</title>
+<meta name="description" content="Form submission results page">
+<link rel="stylesheet" href="/style/main.css">
+  <script src="/scripts/menu.js" defer></script>
+</head>
+<body>
+<header>
+  <link rel="manifest" href="/manifest.json">
+  <link rel="icon" href="/assets/favicon.ico"><h1>Form Submission Results</h1></header>
+<main>
+  <section id="results"></section>
+  <p><a href="/">Back to home</a></p>
+</main>
+<script>
+  const params = new URLSearchParams(window.location.search);
+  const out = document.getElementById('results');
+  if (params.toString()) {
+    const lists = Array.from(params.entries()).map(([k,v]) => `<li><strong>${k}</strong>: ${v}</li>`).join('');
+    out.innerHTML = `<ul>${lists}</ul>`;
+  } else {
+    out.innerHTML = '<p>No form data found.</p>';
+  }
+</script>
+
+  <script type="module">
+    import { renderProfiles, initThemeToggle } from '/scripts/dynamic.js';
+    document.addEventListener('DOMContentLoaded', () => {
+      renderProfiles('.profiles-grid');
+      initThemeToggle('#themeToggle');
+    });
+  </script>
+  
+</body>
+</html>

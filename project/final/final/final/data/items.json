@@ -1,0 +1,107 @@
+[
+  {
+    "name": "Anna",
+    "age": 25,
+    "location": "Harare",
+    "bio": "Loves music and travel. Passionate about discovering new cultures.",
+    "image": "images/Anna.jpg"
+  },
+  {
+    "name": "James",
+    "age": 28,
+    "location": "Bulawayo",
+    "bio": "Adventurous and kind-hearted. Enjoys hiking and photography.",
+    "image": "images/James.jpg"
+  },
+  {
+    "name": "Tariro",
+    "age": 23,
+    "location": "Mutare",
+    "bio": "Creative soul who loves painting and poetry.",
+    "image": "images/Tariro.jpg"
+  },
+  {
+    "name": "Michael",
+    "age": 30,
+    "location": "Kwekwe",
+    "bio": "Tech enthusiast and foodie. Always up for trying new things.",
+    "image": "images/Michael.jpg"
+  },
+  {
+    "name": "Chenai",
+    "age": 26,
+    "location": "Gweru",
+    "bio": "Enjoys volunteering, spending time with family, and singing.",
+    "image": "images/Chenai.jpg"
+  },
+  {
+    "name": "Daniel",
+    "age": 32,
+    "location": "Victoria Falls",
+    "bio": "Lover of nature and outdoor adventures.",
+    "image": "images/Daniel.jpg"
+  },
+  {
+    "name": "Rudo",
+    "age": 24,
+    "location": "Masvingo",
+    "bio": "Believes in kindness and enjoys cooking traditional meals.",
+    "image": "images/Rudo.jpg"
+  },
+  {
+    "name": "Kelvin",
+    "age": 27,
+    "location": "Kadoma",
+    "bio": "Sports fan and entrepreneur. Loves exploring new business ideas.",
+    "image": "images/Kelvin.jpg"
+  },
+  {
+    "name": "Blessing",
+    "age": 22,
+    "location": "Chinhoyi",
+    "bio": "University student who loves books, movies, and good company.",
+    "image": "images/s.jpg"
+  },
+  {
+    "name": "Samantha",
+    "age": 29,
+    "location": "Kariba",
+    "bio": "Loves the outdoors, especially fishing and boating.",
+    "image": "images/.jpg"
+  },
+  {
+    "name": "Tatenda",
+    "age": 31,
+    "location": "Hwange",
+    "bio": "Hardworking professional who enjoys gospel music and church activities.",
+    "image": "images/.jpg"
+  },
+  {
+    "name": "Linda",
+    "age": 26,
+    "location": "Beitbridge",
+    "bio": "Fashion lover who enjoys traveling and photography.",
+    "image": "images/.jpg"
+  },
+  {
+    "name": "Brian",
+    "age": 27,
+    "location": "Marondera",
+    "bio": "A musician who plays guitar and loves songwriting.",
+    "image": "images/Brian.jpg"
+  },
+  {
+    "name": "Chipo",
+    "age": 25,
+    "location": "Mutoko",
+    "bio": "Friendly and outgoing. Loves social events and community building.",
+    "image": "images/Chipo.jpg"
+  },
+  {
+    "name": "Nathan",
+    "age": 33,
+    "location": "Harare",
+    "bio": "Bookworm and traveler. Enjoys deep conversations and exploring history.",
+    "image": "images/Nathan.jpg"
+  }
+]

@@ -1,0 +1,1 @@
+document.addEventListener('DOMContentLoaded', function(){ const hb = document.getElementById('hamburger'); const nav = document.querySelector('nav'); if (hb && nav) { hb.addEventListener('click', () => { const open = nav.getAttribute('data-open') === 'true'; nav.setAttribute('data-open', !open); }); } });
