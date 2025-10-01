@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Murudo — Contact</title>
+  <meta name="author" content="Nyasha Gumboguru">
+  <meta name="description" content="Contact or sign up for Murudo.">
+  <link rel="icon" href="favicon.svg">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="brand"><h1>Murudo</h1></div>
+  <nav class="nav" aria-label="Main navigation">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="profiles.html">Profiles</a></li>
+      <li><a href="contact.html" aria-current="page">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+  <h2>Contact / Sign Up</h2>
+  <form method="get" action="form-action.html">
+    <label for="name">Full name</label>
+    <input id="name" name="name" type="text" required>
+    <label for="email">Email</label>
+    <input id="email" name="email" type="email" required>
+    <label for="age">Age</label>
+    <input id="age" name="age" type="number" min="18" required>
+    <label for="bio">Short bio</label>
+    <textarea id="bio" name="bio" required></textarea>
+    <button type="submit">Submit</button>
+  </form>
+</main>
+
+<footer>
+  <p>© Murudo — Nyasha Gumboguru</p>
+</footer>
+</body>
+</html>

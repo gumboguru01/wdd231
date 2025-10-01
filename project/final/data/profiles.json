@@ -1,122 +1,182 @@
 [
   {
-    "id": 1,
-    "name": "Member 1",
+    "id": "id1",
+    "name": "Person 1",
     "age": 21,
-    "location": "Bulawayo",
-    "bio": "This is a short bio for Member 1. They love culture, music, and meeting new people.",
-    "image": "assets/profile1.jpg"
+    "location": "Harare",
+    "short": "Short bio 1",
+    "long": "Longer bio for person 1",
+    "avatar": "favicon.svg"
   },
   {
-    "id": 2,
-    "name": "Member 2",
+    "id": "id2",
+    "name": "Person 2",
     "age": 22,
-    "location": "Mutare",
-    "bio": "This is a short bio for Member 2. They love culture, music, and meeting new people.",
-    "image": "assets/profile2.jpg"
+    "location": "Harare",
+    "short": "Short bio 2",
+    "long": "Longer bio for person 2",
+    "avatar": "favicon.svg"
   },
   {
-    "id": 3,
-    "name": "Member 3",
+    "id": "id3",
+    "name": "Person 3",
     "age": 23,
-    "location": "Gweru",
-    "bio": "This is a short bio for Member 3. They love culture, music, and meeting new people.",
-    "image": "assets/profile3.jpg"
+    "location": "Harare",
+    "short": "Short bio 3",
+    "long": "Longer bio for person 3",
+    "avatar": "favicon.svg"
   },
   {
-    "id": 4,
-    "name": "Member 4",
+    "id": "id4",
+    "name": "Person 4",
     "age": 24,
-    "location": "Chinhoyi",
-    "bio": "This is a short bio for Member 4. They love culture, music, and meeting new people.",
-    "image": "assets/profile4.jpg"
+    "location": "Harare",
+    "short": "Short bio 4",
+    "long": "Longer bio for person 4",
+    "avatar": "favicon.svg"
   },
   {
-    "id": 5,
-    "name": "Member 5",
+    "id": "id5",
+    "name": "Person 5",
     "age": 25,
     "location": "Harare",
-    "bio": "This is a short bio for Member 5. They love culture, music, and meeting new people.",
-    "image": "assets/profile5.jpg"
+    "short": "Short bio 5",
+    "long": "Longer bio for person 5",
+    "avatar": "favicon.svg"
   },
   {
-    "id": 6,
-    "name": "Member 6",
+    "id": "id6",
+    "name": "Person 6",
     "age": 26,
-    "location": "Bulawayo",
-    "bio": "This is a short bio for Member 6. They love culture, music, and meeting new people.",
-    "image": "assets/profile6.jpg"
+    "location": "Harare",
+    "short": "Short bio 6",
+    "long": "Longer bio for person 6",
+    "avatar": "favicon.svg"
   },
   {
-    "id": 7,
-    "name": "Member 7",
+    "id": "id7",
+    "name": "Person 7",
     "age": 27,
-    "location": "Mutare",
-    "bio": "This is a short bio for Member 7. They love culture, music, and meeting new people.",
-    "image": "assets/profile7.jpg"
+    "location": "Harare",
+    "short": "Short bio 7",
+    "long": "Longer bio for person 7",
+    "avatar": "favicon.svg"
   },
   {
-    "id": 8,
-    "name": "Member 8",
+    "id": "id8",
+    "name": "Person 8",
     "age": 28,
-    "location": "Gweru",
-    "bio": "This is a short bio for Member 8. They love culture, music, and meeting new people.",
-    "image": "assets/profile8.jpg"
+    "location": "Harare",
+    "short": "Short bio 8",
+    "long": "Longer bio for person 8",
+    "avatar": "favicon.svg"
   },
   {
-    "id": 9,
-    "name": "Member 9",
+    "id": "id9",
+    "name": "Person 9",
     "age": 29,
-    "location": "Chinhoyi",
-    "bio": "This is a short bio for Member 9. They love culture, music, and meeting new people.",
-    "image": "assets/profile9.jpg"
+    "location": "Harare",
+    "short": "Short bio 9",
+    "long": "Longer bio for person 9",
+    "avatar": "favicon.svg"
   },
   {
-    "id": 10,
-    "name": "Member 10",
+    "id": "id10",
+    "name": "Person 10",
     "age": 20,
     "location": "Harare",
-    "bio": "This is a short bio for Member 10. They love culture, music, and meeting new people.",
-    "image": "assets/profile10.jpg"
+    "short": "Short bio 10",
+    "long": "Longer bio for person 10",
+    "avatar": "favicon.svg"
   },
   {
-    "id": 11,
-    "name": "Member 11",
+    "id": "id11",
+    "name": "Person 11",
     "age": 21,
-    "location": "Bulawayo",
-    "bio": "This is a short bio for Member 11. They love culture, music, and meeting new people.",
-    "image": "assets/profile11.jpg"
+    "location": "Harare",
+    "short": "Short bio 11",
+    "long": "Longer bio for person 11",
+    "avatar": "favicon.svg"
   },
   {
-    "id": 12,
-    "name": "Member 12",
+    "id": "id12",
+    "name": "Person 12",
     "age": 22,
-    "location": "Mutare",
-    "bio": "This is a short bio for Member 12. They love culture, music, and meeting new people.",
-    "image": "assets/profile12.jpg"
+    "location": "Harare",
+    "short": "Short bio 12",
+    "long": "Longer bio for person 12",
+    "avatar": "favicon.svg"
   },
   {
-    "id": 13,
-    "name": "Member 13",
+    "id": "id13",
+    "name": "Person 13",
     "age": 23,
-    "location": "Gweru",
-    "bio": "This is a short bio for Member 13. They love culture, music, and meeting new people.",
-    "image": "assets/profile13.jpg"
+    "location": "Harare",
+    "short": "Short bio 13",
+    "long": "Longer bio for person 13",
+    "avatar": "favicon.svg"
   },
   {
-    "id": 14,
-    "name": "Member 14",
+    "id": "id14",
+    "name": "Person 14",
     "age": 24,
-    "location": "Chinhoyi",
-    "bio": "This is a short bio for Member 14. They love culture, music, and meeting new people.",
-    "image": "assets/profile14.jpg"
+    "location": "Harare",
+    "short": "Short bio 14",
+    "long": "Longer bio for person 14",
+    "avatar": "favicon.svg"
   },
   {
-    "id": 15,
-    "name": "Member 15",
+    "id": "id15",
+    "name": "Person 15",
     "age": 25,
     "location": "Harare",
-    "bio": "This is a short bio for Member 15. They love culture, music, and meeting new people.",
-    "image": "assets/profile15.jpg"
+    "short": "Short bio 15",
+    "long": "Longer bio for person 15",
+    "avatar": "favicon.svg"
+  },
+  {
+    "id": "id16",
+    "name": "Person 16",
+    "age": 26,
+    "location": "Harare",
+    "short": "Short bio 16",
+    "long": "Longer bio for person 16",
+    "avatar": "favicon.svg"
+  },
+  {
+    "id": "id17",
+    "name": "Person 17",
+    "age": 27,
+    "location": "Harare",
+    "short": "Short bio 17",
+    "long": "Longer bio for person 17",
+    "avatar": "favicon.svg"
+  },
+  {
+    "id": "id18",
+    "name": "Person 18",
+    "age": 28,
+    "location": "Harare",
+    "short": "Short bio 18",
+    "long": "Longer bio for person 18",
+    "avatar": "favicon.svg"
+  },
+  {
+    "id": "id19",
+    "name": "Person 19",
+    "age": 29,
+    "location": "Harare",
+    "short": "Short bio 19",
+    "long": "Longer bio for person 19",
+    "avatar": "favicon.svg"
+  },
+  {
+    "id": "id20",
+    "name": "Person 20",
+    "age": 20,
+    "location": "Harare",
+    "short": "Short bio 20",
+    "long": "Longer bio for person 20",
+    "avatar": "favicon.svg"
   }
 ]

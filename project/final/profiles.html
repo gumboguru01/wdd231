@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Murudo — Profiles</title>
+  <meta name="author" content="Nyasha Gumboguru">
+  <meta name="description" content="Browse Murudo profiles.">
+  <link rel="icon" href="favicon.svg">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="brand"><h1>Murudo</h1></div>
+  <button id="nav-toggle-2" aria-controls="primary-nav-2" aria-expanded="false">☰</button>
+  <nav id="primary-nav-2" class="nav" aria-label="Main navigation">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="profiles.html" aria-current="page">Profiles</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+  <h2>Profiles</h2>
+  <div id="profiles" class="grid" aria-live="polite"></div>
+</main>
+
+<footer>
+  <p>© Murudo — Nyasha Gumboguru</p>
+  <p><a href="attributions.html">Attributions</a></p>
+</footer>
+
+<div id="modal" class="modal" role="dialog" aria-modal="true" aria-hidden="true" aria-labelledby="modal-title">
+  <div class="modal-content">
+    <button id="modal-close" class="modal-close" aria-label="Close dialog">✕</button>
+    <h3 id="modal-title">Profile details</h3>
+    <div id="modal-body"></div>
+  </div>
+</div>
+
+<script type="module" src="js/profiles.js"></script>
+</body>
+</html>

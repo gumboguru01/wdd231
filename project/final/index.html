@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Murudo — Home</title>
+  <meta name="author" content="Nyasha Gumboguru">
+  <meta name="description" content="Murudo is a dating platform connecting hearts across borders. Browse profiles, read love stories, and sign up.">
+  <meta property="og:title" content="Murudo — Connect across borders">
+  <meta property="og:description" content="Murudo helps people form genuine romantic connections across cultures.">
+  <meta property="og:type" content="website">
+  <link rel="icon" href="favicon.svg">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="brand">
+    <h1>Murudo</h1>
+    <p class="tag">Connecting hearts across borders</p>
+  </div>
+  <button id="nav-toggle" aria-controls="primary-nav" aria-expanded="false">☰</button>
+  <nav id="primary-nav" class="nav" aria-label="Main navigation">
+    <ul>
+      <li><a href="index.html" aria-current="page">Home</a></li>
+      <li><a href="profiles.html">Profiles</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="form-action.html">Form Action</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+  <section class="hero">
+    <h2>Find love across cultures</h2>
+    <p>Discover hand-curated profiles, read real love stories, and create your free account.</p>
+    <p><a class="btn" href="profiles.html">Browse Profiles</a></p>
+  </section>
+
+  <section>
+    <h3>Featured Profiles</h3>
+    <div id="featured" class="grid" aria-live="polite"></div>
+  </section>
+</main>
+
+<footer>
+  <p>© Murudo — Nyasha Gumboguru</p>
+  <p><a href="https://www.youtube.com/watch?v=ysz5S6PUM-U" target="_blank" rel="noopener">Project video (replace link)</a></p>
+  <p><a href="attributions.html">Attributions</a></p>
+</footer>
+
+<template id="profile-card">
+  <article class="card">
+    <img loading="lazy" alt="">
+    <div class="card-body">
+      <h4 class="name"></h4>
+      <p class="meta"></p>
+      <p class="bio"></p>
+      <p>
+        <button class="details-btn">Details</button>
+        <button class="fav-btn" aria-pressed="false">♡ Save</button>
+      </p>
+    </div>
+  </article>
+</template>
+
+<script type="module" src="js/main.js"></script>
+</body>
+</html>

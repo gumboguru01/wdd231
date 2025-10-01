@@ -1,47 +1,34 @@
-
 <!doctype html>
 <html lang="en">
 <head>
-  <link rel="manifest" href="/manifest.json">
-  <link rel="icon" href="/assets/favicon.ico">
-<meta charset="utf-8">
-
-  <meta property="og:title" content="Murudo - Connect across borders">
-  <meta property="og:description" content="Join Murudo to meet people from different cultures.">
-  <meta property="og:type" content="website">
-
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Form Submission</title>
-<meta name="description" content="Form submission results page">
-<link rel="stylesheet" href="/style/main.css">
-  <script src="/scripts/menu.js" defer></script>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Form Results — Murudo</title>
+  <meta name="author" content="Nyasha Gumboguru">
+  <meta name="description" content="Form submission results.">
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-<header>
-  <link rel="manifest" href="/manifest.json">
-  <link rel="icon" href="/assets/favicon.ico"><h1>Form Submission Results</h1></header>
+<header><h1>Murudo</h1></header>
 <main>
-  <section id="results"></section>
-  <p><a href="/">Back to home</a></p>
+  <h2>Submission Results</h2>
+  <div id="results" aria-live="polite"></div>
 </main>
+<footer><p>© Murudo</p></footer>
 <script>
-  const params = new URLSearchParams(window.location.search);
-  const out = document.getElementById('results');
-  if (params.toString()) {
-    const lists = Array.from(params.entries()).map(([k,v]) => `<li><strong>${k}</strong>: ${v}</li>`).join('');
-    out.innerHTML = `<ul>${lists}</ul>`;
-  } else {
-    out.innerHTML = '<p>No form data found.</p>';
+const results = document.getElementById('results');
+const params = new URLSearchParams(window.location.search);
+if (!params.toString()) {
+  results.textContent = 'No form data submitted.';
+} else {
+  const list = document.createElement('dl');
+  for (const [k,v] of params) {
+    const dt = document.createElement('dt'); dt.textContent = k;
+    const dd = document.createElement('dd'); dd.textContent = v;
+    list.appendChild(dt); list.appendChild(dd);
   }
+  results.appendChild(list);
+}
 </script>
-
-  <script type="module">
-    import { renderProfiles, initThemeToggle } from '/scripts/dynamic.js';
-    document.addEventListener('DOMContentLoaded', () => {
-      renderProfiles('.profiles-grid');
-      initThemeToggle('#themeToggle');
-    });
-  </script>
-  
 </body>
 </html>
